@@ -31,9 +31,13 @@ public class BasicConfiguration extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
+                .antMatchers("/h2_console/**").permitAll()
                 .anyRequest()
                 .authenticated()
                 .and()
                 .httpBasic();
+
+        http.csrf().ignoringAntMatchers("/h2-console/**");
+        http.headers().frameOptions().sameOrigin();
     }
 }

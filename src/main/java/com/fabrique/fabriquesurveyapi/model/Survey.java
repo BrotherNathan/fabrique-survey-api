@@ -45,6 +45,10 @@ public class Survey {
         }
     }
 
+    public void addQuestion(Question question) {
+        this.questions.add(question);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
