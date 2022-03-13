@@ -1,4 +1,4 @@
-package com.fabrique.fabriquesurveyapi.api.v1.mapper;
+package com.fabrique.fabriquesurveyapi.mapper;
 
 import java.util.List;
 

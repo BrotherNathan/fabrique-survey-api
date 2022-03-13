@@ -1,6 +1,6 @@
 package com.fabrique.fabriquesurveyapi.service;
 
-import com.fabrique.fabriquesurveyapi.api.v1.dto.QuestionDto;
+import com.fabrique.fabriquesurveyapi.dto.QuestionDto;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.fabrique.fabriquesurveyapi.api.v1.mapper;
+package com.fabrique.fabriquesurveyapi.mapper;
 
-import com.fabrique.fabriquesurveyapi.api.v1.dto.QuestionDto;
+import com.fabrique.fabriquesurveyapi.dto.QuestionDto;
 import com.fabrique.fabriquesurveyapi.model.Question;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;

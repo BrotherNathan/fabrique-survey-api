@@ -36,7 +36,6 @@ public class Survey {
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "survey_id")
     private List<Question> questions;
-
     public void setStartDate(LocalDateTime startDate) {
         if (this.startDate == null) {
             this.startDate = startDate;

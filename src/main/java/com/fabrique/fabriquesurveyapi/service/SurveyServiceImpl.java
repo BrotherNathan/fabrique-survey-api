@@ -1,11 +1,10 @@
-package com.fabrique.fabriquesurveyapi.service.v1;
+package com.fabrique.fabriquesurveyapi.service;
 
-import com.fabrique.fabriquesurveyapi.api.v1.dto.SurveyDto;
-import com.fabrique.fabriquesurveyapi.api.v1.mapper.SurveyMapper;
+import com.fabrique.fabriquesurveyapi.dto.SurveyDto;
+import com.fabrique.fabriquesurveyapi.mapper.SurveyMapper;
 import com.fabrique.fabriquesurveyapi.model.Survey;
 import com.fabrique.fabriquesurveyapi.model.exception.IllegalOperationException;
 import com.fabrique.fabriquesurveyapi.repository.SurveyRepository;
-import com.fabrique.fabriquesurveyapi.service.SurveyService;
 import com.fabrique.fabriquesurveyapi.service.exception.ResourceNotFoundException;
 import lombok.AllArgsConstructor;
 

@@ -1,11 +1,10 @@
-package com.fabrique.fabriquesurveyapi.service.v1;
+package com.fabrique.fabriquesurveyapi.service;
 
-import com.fabrique.fabriquesurveyapi.api.v1.dto.QuestionDto;
-import com.fabrique.fabriquesurveyapi.api.v1.mapper.QuestionMapper;
+import com.fabrique.fabriquesurveyapi.dto.QuestionDto;
+import com.fabrique.fabriquesurveyapi.mapper.QuestionMapper;
 import com.fabrique.fabriquesurveyapi.model.Survey;
 import com.fabrique.fabriquesurveyapi.repository.QuestionRepository;
 import com.fabrique.fabriquesurveyapi.repository.SurveyRepository;
-import com.fabrique.fabriquesurveyapi.service.QuestionService;
 import com.fabrique.fabriquesurveyapi.service.exception.ResourceNotFoundException;
 import lombok.AllArgsConstructor;
 

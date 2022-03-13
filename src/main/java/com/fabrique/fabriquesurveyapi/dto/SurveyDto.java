@@ -1,4 +1,4 @@
-package com.fabrique.fabriquesurveyapi.api.v1.dto;
+package com.fabrique.fabriquesurveyapi.dto;
 
 import com.fabrique.fabriquesurveyapi.model.Question;
 import lombok.Data;
